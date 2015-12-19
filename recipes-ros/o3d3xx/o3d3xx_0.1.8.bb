@@ -24,6 +24,8 @@ EXTRA_OECMAKE += "-Dlibo3d3xx_INCLUDE_DIRS:PATH=${STAGING_INCDIR} \
 "
 
 CXXFLAGS += " -std=c++11"
-ROS_SPN = "o3d3xx"
+
+S = "${WORKDIR}/${PN}-ros-${PV}"
 
 inherit catkin
+
