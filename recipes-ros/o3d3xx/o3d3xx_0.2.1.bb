@@ -3,8 +3,7 @@ SECTION = "devel"
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 
-DEPENDS = "libo3d3xx \
-           boost \
+DEPENDS = "libo3d3xx-image \
            image-transport \
            pcl-ros \
            cv-bridge \
@@ -16,8 +15,8 @@ DEPENDS = "libo3d3xx \
 "
 
 SRC_URI = "https://github.com/lovepark/o3d3xx-ros/archive/v${PV}.tar.gz"
-SRC_URI[md5sum] = "619c4fc3cc5c81111a743abc0016e270"
-SRC_URI[sha256sum] = "9803933766967fb460d71b495e77df5588e49908684d10404e2e66b398395c10"
+SRC_URI[md5sum] = "34b8b3129b11b74bf80010e69aa3a7ef"
+SRC_URI[sha256sum] = "c1f320bec0e60907542d55c050a6bae7c04c7edbad919fde54170c7ccb745106"
 
 EXTRA_OECMAKE += "-Dlibo3d3xx_INCLUDE_DIRS:PATH=${STAGING_INCDIR} \
                   -Dlibo3d3xx_LIBRARIES:NAME=o3d3xx \
