@@ -9,3 +9,7 @@ SRC_URI[md5sum] = "8cbc66fb21046cf9c3d6f97ed9f72385"
 SRC_URI[sha256sum] = "6cb3b0dafa5427ed1bd126c632c937acce4e969e2e02db014705590a1c794a8f"
 
 inherit cmake
+
+EXTRA_OECMAKE += " -DCMAKE_INSTALL_PREFIX=${prefix} \
+                   -DBUILD_TESTS=OFF \
+"
