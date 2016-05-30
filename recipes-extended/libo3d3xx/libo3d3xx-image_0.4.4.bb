@@ -5,6 +5,7 @@ S = "${WORKDIR}/libo3d3xx-${PV}/modules/image"
 do_fetch[depends] += "libo3d3xx-camera:do_fetch"
 
 EXTRA_OECMAKE += " -DBUILD_EXE_VIEWER=OFF \
+                   -DFORCE_OPENCV2=ON \
 "
 
 FILES_${PN}-dev += "${prefix}/lib/o3d3xx_image"
