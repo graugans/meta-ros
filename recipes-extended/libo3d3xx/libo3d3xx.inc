@@ -5,8 +5,8 @@ LIC_FILES_CHKSUM = "file://../../LICENSE;md5=175792518e4ac015ab6696d16c4f607e"
 SRC_URI = "https://github.com/lovepark/libo3d3xx/archive/v${PV}.tar.gz \
 "
 
-SRC_URI[md5sum] = "7edf28e43853600446a14918ef52d7e4"
-SRC_URI[sha256sum] = "13c6479bd15e8bc69d54bb6aae95f6ce52246bd8a76806f6fcb473c345ca59cc"
+SRC_URI[md5sum] = "8d87c5ed12e5a8e894bc8eac8d02d052"
+SRC_URI[sha256sum] = "0d98bfed9f4f62310b825e09acb1ff57f7ea54ec632ac910ccf2e0376f3425cf"
 
 inherit cmake
 
